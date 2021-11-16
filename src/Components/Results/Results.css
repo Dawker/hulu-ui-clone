@@ -1,0 +1,12 @@
+.results > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .results{
+    margin-left: -40px;
+    
+  }
+ }
